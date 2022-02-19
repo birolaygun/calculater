@@ -2,9 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  console.l0g("de")
-  console.l0g("li")
-
   const [firstvalue, setFirstValue] = useState("");
   const [secondValue, setSecondValue] = useState(0);
   const [transection, setTransection] = useState("");
