@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
+  console.l0g("de")
+
   const [firstvalue, setFirstValue] = useState("");
   const [secondValue, setSecondValue] = useState(0);
   const [transection, setTransection] = useState("");
